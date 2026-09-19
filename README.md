@@ -68,3 +68,8 @@ Dữ liệu đầu vào trải qua ba tầng xử lý nghiêm ngặt:
 Để vượt qua mức trần 93% hiện tại trên tập từ mới, dự án cần tập trung vào:
 1. **Mở rộng từ điển:** Việc bổ sung thêm ~600 âm tiết bằng phương pháp thủ công sẽ giúp bao phủ phần lớn các văn bản thực tế.
 2. **Cải thiện OCR:** Giữ nguyên sự phân biệt chữ hoa/thường ở cột chữ Việt trong các tài liệu gốc (như giáo trình) để mã hóa chính xác lớp thanh mà không cần phải dự đoán.
+
+## 🌟 Credits
+
+Thuật toán nền tảng của chương trình này thực chất là thuật toán đảo ngược dựa trên bộ quy tắc chuyển đổi chữ Thái Việt Nam từ dự án Unicode CLDR:
+- Tham khảo bản gốc: [unicode-org/cldr: blt-fonipa-t-blt.xml](https://github.com/unicode-org/cldr/blob/main/common/transforms/blt-fonipa-t-blt.xml)
